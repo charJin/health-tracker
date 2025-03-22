@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./App.css";
 
 function App() {
+	console.log("App is rendering!");
 	return <></>;
 }
 
