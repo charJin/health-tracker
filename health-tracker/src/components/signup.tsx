@@ -45,7 +45,7 @@ const Signup = () => {
 						</label>
 						<input
 							type="email"
-							className="w-full border border-main-green rounded-md p-2 focus:outline-none"
+							className="w-full border border-main-green rounded-md p-2 focus:outline-none bg-white-green text-black-green"
 							onChange={(e) => setEmail(e.target.value)}
 						/>
 					</div>
@@ -56,7 +56,7 @@ const Signup = () => {
 						</label>
 						<input
 							type="password"
-							className="w-full border border-main-green rounded-md p-2 focus:outline-none"
+							className="w-full border border-main-green rounded-md p-2 focus:outline-none bg-white-green text-black-green"
 							onChange={(e) => setPassword(e.target.value)}
 						/>
 					</div>
@@ -64,7 +64,7 @@ const Signup = () => {
 					<button
 						type="submit"
 						disabled={loading}
-						className="bg-main-green text-white py-2 rounded-md hover:bg-bright-green transition font-medium"
+						className="mt-4 bg-main-green text-white py-2 rounded-md hover:bg-bright-green transition font-medium"
 					>
 						Get Started
 					</button>
