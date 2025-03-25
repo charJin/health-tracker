@@ -9,7 +9,9 @@ const Signup = () => {
 	const [error, setError] = useState("");
 	const [loading, setLoading] = useState("");
 
-	const { session } = UserAuth();
+	const auth = UserAuth();
+	if (!auth) return <div>Loading...</div>;
+	const { session, signUpNewUser } = auth;
 
 	console.log(session);
 	return (
